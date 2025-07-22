@@ -1,0 +1,17 @@
+px--->pixels
+  it depends on diff screen and do change its size according to size of screen (not much user friendly)
+%--->percentage
+  it depends on size of screen and is automatically adjustable(preferably used)
+  it takes value from parent
+vw,vh
+  it takes value from screen
+  it is also percentage of screen to be covered
+em
+  it depends on fontsize of an element and is applied to both child and parent
+   1em=(fontsize)  
+rem
+  it depends on fontsize of 'html' element irrespective of its own.
+  similat to em
+max,min
+  it restricts to use above/below the range set by max/min  
+     

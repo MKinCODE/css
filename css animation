@@ -1,0 +1,12 @@
+to start animation:
+1. create '@keyframe name(any){}'
+2. write into it 'from' and 'to' section (basically defining animation). from and to is only used when we have to define initial and final position. else we can use % method to define every stage of animation.
+3.use 'animation-name: nameofanimation' in the element you want animation
+4. also define duration of animation.
+
+
+--->transition: a tool which helps in transit effect of elemnt 
+    eg. "transition:all linear 0.5s"
+
+--->z-indes:helps transfering color or element in z axis
+--->mix-blend mode

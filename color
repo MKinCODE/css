@@ -1,0 +1,7 @@
+-every LED resembles/display three colors: red,green,blue. by there combination new colors are formed.
+-in css min value of each color(red,blue,green) is 0 and max is 255.
+-there are 4 ways to define required color:
+ 1.color name(direct method)
+ 2.Hexadecimal notation: #
+ 3.RGB functional notation: rgb
+ 4.RGBA functional notation: rgba, here 'a' shows transparency value of the color(ranges b/w 0 to 1).

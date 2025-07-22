@@ -1,0 +1,4 @@
+ -->flex-direction: it is used to change directionof flex i can be converted to column.
+                     -when it is converted to column the main and cross axis both changes their direction simultaneously.
+               
+  -->flex is usually flexible but can me made fix using 'flex-wrap'     

@@ -1,0 +1,16 @@
+grid is another function of 'display'.
+'display-grid' allow moving element in two diemension whereas 'display-flex' only allow movement in one dimension at one time.
+it is declared in parent element
+
+it will help creating rows and columns which will directly help to adjust elements adjusting items inside a 'cell'.
+
+'grid-template-columns: ' helps in creating columns (after semicolon size of column acc to required no. of columns can we given)
+'grid-template-rows: ' helps in creating rows (after semicolon size of column acc to required no. of columns can we given)
+
+'justify-item': helps in adjusting element inside cell in x-direction inside a single cell/element/child
+'align-item': helps in adjusting element inside cell in y-direction inside a single cell/element/child
+
+'justify-self':used to aligh items 
+
+'justify-content': used to align items in x-direction, basically used for parent div
+'align-content': used to align items in y-direction, basically used for parent div

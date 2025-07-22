@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+html{
+    font-size: 12px;
+}
+#test{
+    width: 600px;
+    height: 400px;
+    overflow: hidden; /*used to hide extra part of vw vh which is used in child*/
+    background-color: blueviolet;
+}
+#child{
+    width: 100vw;    /*if percentage was used it would have covered 100% of the parent */
+    height: 100vh;
+    background-color: yellow;
+}
+#test2{
+    font-size: 16px;
+    width: 2em;
+    height: 2em;
+}
+#test3{
+    width: 3rem;
+    height: 2rem;
+}

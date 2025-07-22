@@ -1,0 +1,73 @@
+font family---> changes font (can download and install from google fonts)
+font weight---> used to change thickness of fonts
+text decoration---> used to decorate text
+font size--> must be kept in 'vw' to make responsive website
+line hieght--->used to adjust hieht between many lines
+text-align--->used to align text/paragraph (has many options like centred,left,right,justify,etc.)
+padding---> used to align text and give space from every corner
+  parent is padded
+  everything inside element/with element gets shifted
+margin--->gives space between two elements
+  only used between more than a element(two)
+--for padding and margin one,two,three and four values can be given to adjust from all direction.
+
+border--->used to create border outside a element/div
+  syntax:
+  border: width type color;
+ ->border radius: used to round an element/div.
+   after circle no more element is cut.
+
+display--->
+  * block element covers whole line and dont allow any other element after it. block has rule-one element one space.
+  * in-line elemnts says if there is space you can add other element. it does not allows to increase width or hieght.
+  -->in-line block: to solve the problem a block is declared in-line which helps to adjusts more elemts in a line with allowing changes in width and hieght.
+  
+  
+  ****better here(in css project 2 in style.css line no 42) use a div with display flex,column and then space between to make it more simplified than using margin top.
+
+
+
+
+  -->position: another property used to move element within space
+    ->absolute: if the element is assigned as "position absolute" it will be free and can be positined anywhere in the space.
+    ->relative: it is made between parent and child element. it is assigned to parent element through which chils(being absolute) moves inside the parent element w.r.t. assigned dimensions.
+    ->fixed: used to fix position of element if scroller is added or the website hi scrolled down
+
+background--->
+  it allow formatting the background of the element through several ways:
+   ->image: added using url and set using three steps (syntax are given):
+     -background: url()
+     -background-size: cover/contain
+     -background-position: right/left/center/bottom...
+   ->color
+   ->linear gradient
+     syntax:
+       background:linear gradient(specify_position, color1,color2)
+
+
+flex: part of 'display' used to display diff child element in a line(side by side)
+ --> adjusted using two axis:
+     x-axis: main 
+     y-axis:cross
+     to adjust horizontally/in main axis use 'justify-content' 
+     to adjust vertically/in cross axis use 'align-items'
+  **flex is written in parent element. 
+                 
+
+pseudo elements: another great feature in css help in targeting particular things in an element.
+ -it has five targetting properties:
+  ::before         - helps in adding feature before any para/element
+  ::after          - helps in adding properties after para/element
+  ::first-line     - helps in targetting/formatting first line of para.
+  ::first-letter   - helps in targetting/formatting first letter of para.
+  ::selection      - helps in targetting/formatting selected text(by user) of para.
+  
+pseudo-classes: another feature of css helps in highlighting particular element select dynamically
+ -it has four options:
+  :hover          - used to format any element when cursor is moved to it
+  :active         - used to highlight the element when it is clicked(mostly used in buttons element)
+  :focus          - used to highlight element when working upon it(like in input elements)
+  :nth-child(n)   -used to format 'n' line or elemnt in <p> tag.
+
+
+Transform-origin: another great propertyof css helps in defining the rotating point of the div (default point is centre (50% 50%))
